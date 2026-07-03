@@ -13,3 +13,7 @@ Differential expression analysis results uncovered several genes upregulated in 
 * kupffer/M2 cells (SPP1, CSF1, ANGPT2, involved in angiogenesis, stemeness, M2 polarization, and tumor invation)
 * exhausted memory T cells (IKZF2, ICOS, and SLAMF, involved in t cell exhaustion and immune suppression)
 * Stellate cells (FAP, IL34, ANGPT2, and VCAM1, with possible roles in tumor macrophage recruitment/M2 polarization, angiogenesis, immune cell retention and erythroblastic island formation)
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/2bbe7700-63ea-471b-8299-0847f77df1c0" alt="Description" width="750">
+</div>
