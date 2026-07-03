@@ -5,6 +5,8 @@ In this portfolio project, I demonstrate my capability to conduct single cell RN
 ## Single cel analysis
 Hepatoblastoma is one of the primary liver cancers in young children, and despite the many advancements made in the treatment of the disease, little is known about how it is initiated or progresses. The goal of this analysis was to focus on the non-tumor population of cells and see if there were increased expression of genes involved in biological processes that advanced tumor cells. 17 clusters were generated consisting of neurons, tumor cells, hepatocytes, stellate cells, endothelial cells, Kupffer/M2 macrophages, exhausted memory T cells, erythrocytes, and cholangiocytes. 
 
+
+
 <img width="631" height="252" alt="Screen Shot 2026-07-02 at 10 38 54 PM" src="https://github.com/user-attachments/assets/82ce18c0-8d40-4a90-bc33-78ddc122f6cd" />
 
 
