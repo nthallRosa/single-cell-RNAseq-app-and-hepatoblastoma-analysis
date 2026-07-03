@@ -9,7 +9,7 @@ Hepatoblastoma is one of the primary liver cancers in young children, and despit
 </div>
 
 Differential expression analysis results uncovered several genes upregulated in non-tumor cells that are involved processes that advance tumor cells. These include:
-- endothelial cells (VEGF and HIF-1 alpha, involved in the promotion of angiogenesis via the Warburg effect)
-- kupffer/M2 cells (SPP1, CSF1, ANGPT2, involved in angiogenesis, stemeness, M2 polarization, and tumor invation)
-- exhausted memory T cells (IKZF2, ICOS, and SLAMF, involved in t cell exhaustion and immune suppression)
-- Stellate cells (FAP, IL34, ANGPT2, and VCAM1, with possible roles in tumor macrophage recruitment/M2 polarization, angiogenesis, immune cell retention and erythroblastic island formation)
+* endothelial cells (VEGF and HIF-1 alpha, involved in the promotion of angiogenesis via the Warburg effect)
+* kupffer/M2 cells (SPP1, CSF1, ANGPT2, involved in angiogenesis, stemeness, M2 polarization, and tumor invation)
+* exhausted memory T cells (IKZF2, ICOS, and SLAMF, involved in t cell exhaustion and immune suppression)
+* Stellate cells (FAP, IL34, ANGPT2, and VCAM1, with possible roles in tumor macrophage recruitment/M2 polarization, angiogenesis, immune cell retention and erythroblastic island formation)
