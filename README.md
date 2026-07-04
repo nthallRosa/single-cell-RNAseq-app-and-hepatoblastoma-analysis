@@ -18,12 +18,21 @@ Differential expression analysis results uncovered several genes upregulated in 
 </div>
 
 ## Single cell analysis app
-The single cell app enables one to examine UMAPs, explore feature maps for genes, and conduct differential gene expression analysis. Only seurat objects can be uploded, and users will be asked if they want to compare multiple conditions (e.g treatment vs normal, or multiple batches) or not.  Before uploading the .rds file, users will need to ensure their seurat object is set to ident they intend for it to be on when conducting differential expression analysis. For instance, if one wanted to compare cell types from different conditions it would be necessary to create a column in the metadata table of the seurat object that contained both that information (e.g. a "celltype.stim" column that had CD4_T_normal, CD4_T_cancer, etc.)
-
-
+The single cell app enables one to examine UMAPs, explore feature maps for genes, and conduct differential gene expression analysis. Only seurat objects can be uploded, and users will be asked if they want to compare multiple conditions (e.g treatment vs normal, or multiple batches) or not. 
 After uploading the .rds file, tabs “UMAP” and “Gene expression” will appear in the Data Exploration panel, enabling one to examine clusters and feature plots to look at gene expression.
 
-https://github.com/user-attachments/assets/26118c02-79e8-4df5-9df2-85f531f56541
+
+
+
+In the Tables tab one can conduct differential gene expression analysis between two groups and generate a table that can be downloaded for further use. In order to reduce the number of genes loaded onto the browser, the table is filtered so that only those with an adjusted p value less than 0.01 and an average log2 fold change greater than +1.5 or less than -1.5 are included. 
+
+
+
+
+## Limitations and Steps to take before uploading
+* The differential gene expression analyzer uses the current ident of the seurat object, so users will need to ensure it is switched to the right one before uploading the .rds file. For instance, if one wanted to compare cell types from different conditions it would be necessary to create a column in the metadata table of the seurat object that contained both that information and make that the active ident (e.g. a "celltype.stim" column that had CD4_T_normal, CD4_T_cancer, etc.). Those comparing across conditions must place some kind of seperator (space, number, underscore, or other special character) between the cell types and the condition, else the output will not be accurate.
+* This app is optimal for small to mid sized datasets (~250 - 830MB). Those closer to the 800 range could take about a minute to upload, and users are advised to eliminate genes from their dataset they might not be intrested in to improve speed.
+* In order to reduce the number of genes loaded onto the browser, the table is filtered so that only those with an adjusted p value less than 0.01 and an average log2 fold change greater than +/- 1.5 are included. Genes that fall outside of that range won't be included.
 
 
 
