@@ -16,3 +16,15 @@ Differential expression analysis results uncovered several genes upregulated in 
 <div align="center">
     <img src="https://github.com/user-attachments/assets/2bbe7700-63ea-471b-8299-0847f77df1c0" alt="Description" width="600">
 </div>
+
+## Single cell analysis app
+The single cell app enables one to examine UMAPs, explore feature maps for genes, and conduct differential gene expression analysis. Only seurat objects can be uploded, and users will be asked if they want to compare multiple conditions (e.g treatment vs normal, or multiple batches) or not.  Before uploading the .rds file, users will need to ensure their seurat object is set to ident they intend for it to be on when conducting differential expression analysis. For instance, if one wanted to compare cell types from different conditions it would be necessary to create a column in the metadata table of the seurat object that contained both that information (e.g. a "celltype.stim" column that had CD4_T_normal, CD4_T_cancer, etc.)
+
+
+After uploading the .rds file, tabs “UMAP” and “Gene expression” will appear in the Data Exploration panel, enabling one to examine clusters and feature plots to look at gene expression.
+
+https://github.com/user-attachments/assets/26118c02-79e8-4df5-9df2-85f531f56541
+
+
+
+
