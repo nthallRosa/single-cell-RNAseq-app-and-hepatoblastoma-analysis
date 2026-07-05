@@ -21,13 +21,7 @@ Differential expression analysis results uncovered several genes upregulated in 
 The single cell app enables one to examine UMAPs, explore feature maps for genes, and conduct differential gene expression analysis. Only seurat objects can be uploded, and users will be asked if they want to compare multiple conditions (e.g treatment vs normal, or multiple batches) or not. 
 After uploading the .rds file, tabs “UMAP” and “Gene expression” will appear in the Data Exploration panel, enabling one to examine clusters and feature plots to look at gene expression.
 
-
-
-
-https://github.com/user-attachments/assets/80cdbf9f-f991-446e-97e0-80a7088b1092
-
-
-
+https://github.com/user-attachments/assets/bc5bcfab-a49c-4802-a28d-52ecc8f90c18
 
 
 In the Tables tab one can conduct differential gene expression analysis between two groups and generate a table that can be downloaded for further use. In order to reduce the number of genes loaded onto the browser, the table is filtered so that only those with an adjusted p value less than 0.01 and an average log2 fold change greater than +1.5 or less than -1.5 are included. 
@@ -35,11 +29,7 @@ In the Tables tab one can conduct differential gene expression analysis between 
 
 
 
-https://github.com/user-attachments/assets/3fa10820-48bc-4d2b-b519-074d08153db7
-
-
-
-
+https://github.com/user-attachments/assets/fe1320a3-bb57-4384-bfb6-c6911d39af75
 
 
 
