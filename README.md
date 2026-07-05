@@ -35,6 +35,12 @@ In the Tables tab one can conduct differential gene expression analysis between 
 
 
 
+https://github.com/user-attachments/assets/3fa10820-48bc-4d2b-b519-074d08153db7
+
+
+
+
+
 
 
 ## Limitations and Steps to take before uploading
