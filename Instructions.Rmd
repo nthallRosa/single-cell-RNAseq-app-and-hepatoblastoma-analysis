@@ -1,0 +1,21 @@
+### How to use this app
+
+1. Upload a Seurat object using **Upload file**
+2. Choose whether you will be analyzing a dataset with multiple conditions or not.
+3. Press the ```Run``` button to run the analysis.
+  - 2 tabs will appear within the Data Exploration panel, enabling you to explore clusters and gene expression.
+  - The Tables tab within the DE analyzer panel will enable you to conduct differential expression analysis.
+  - The Visualizations tab provides you with 3 plots to explore differences in gene expression between cell 
+    types across different conditions.
+       - Dot plot: can select up to 13 genes and 8 cell types
+       - Feature plot: can select 1 gene
+       - Violin plot: can select 1 gene and up to 8 cell types
+- Press the ```Reset``` button to clear input files and remove all data from the current run.
+
+**Preprocessing steps**
+
+- The differential expression analyzer runs on the active.ident of the seurat object. Please make sure
+  you are switched to the one that has the cell types and conditions (e.g normal vs treatment, batches, etc.) 
+  you'd like to compare before uploading your file. 
+- The active.ident should be constructed in such a way that there is a separator between the cell type and the 
+  condition so that differential expression visualizations generated are accurate (e.g. Tcell_cancer).
