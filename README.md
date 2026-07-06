@@ -35,6 +35,7 @@ https://github.com/user-attachments/assets/fe1320a3-bb57-4384-bfb6-c6911d39af75
 
 ## Limitations and Steps to take before uploading
 * The differential gene expression analyzer uses the current ident of the seurat object, so users will need to ensure it is switched to the right one before uploading the .rds file. For instance, if one wanted to compare cell types from different conditions it would be necessary to create a column in the metadata table of the seurat object that contained both that information and make that the active ident (e.g. a "celltype.stim" column that had CD4_T_normal, CD4_T_cancer, etc.). Those comparing across conditions must place some kind of seperator (space, number, underscore, or other special character) between the cell types and the condition, else the output will not be accurate.
+* Both the single_cell_app.R and the backend.R code should be placed in the same directory along with your RDS object. Instructions.Rmd (inside a directory called "markdown") should also be included in the directory.
 * This app is optimal for small to mid sized datasets (~250 - 830MB). Those closer to the 800 range could take about a minute to upload, and users are advised to eliminate genes from their dataset they might not be intrested in to improve speed.
 * In order to reduce the number of genes loaded onto the browser, the table is filtered so that only those with an adjusted p value less than 0.01 and an average log2 fold change greater than +/- 1.5 are included. Genes that fall outside of that range won't be included.
 
