@@ -38,6 +38,26 @@ https://github.com/user-attachments/assets/fe1320a3-bb57-4384-bfb6-c6911d39af75
 * This app is optimal for small to mid sized datasets (~250 - 830MB). Those closer to the 800 range could take about a minute to upload, and users are advised to eliminate genes from their dataset they might not be intrested in to improve speed.
 * In order to reduce the number of genes loaded onto the browser, the table is filtered so that only those with an adjusted p value less than 0.01 and an average log2 fold change greater than +/- 1.5 are included. Genes that fall outside of that range won't be included.
 
+### Tools for hepatoblastoma analysis
+* Rstudio (2023.12.1+402)
+* R(4.3.1)
+* Seurat (5.3.0)
+* presto (1.0.0)
+* harmony (1.2.3)
+* patchwork (1.3.2)
+* tidyverse (2.0.0)
 
+### Tools for scRNAseq app creation
+* Rstudio (2023.12.1+402)
+* R(4.3.1)
+* Seurat (5.3.0)
+* shiny (1.11.1)
+* shinydashboard (0.7.3)
+* markdown(2.0)
+* shinyjs (2.1.0)
+* tools (4.3.1)
+* shinybusy (0.3.3)
+* ggplot2 (3.5.2)
+* stringr (1.5.1)
 
 
