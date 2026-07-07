@@ -18,7 +18,7 @@ Differential expression analysis results uncovered several genes upregulated in 
 </div>
 
 ## Single cell analysis app
-The single cell app enables one to examine UMAPs, explore feature maps for genes, and conduct differential gene expression analysis. Only seurat objects can be uploded, and users will be asked if they want to compare multiple conditions (e.g treatment vs normal, or multiple batches) or not. 
+The single cell app enables one to examine UMAPs, explore feature maps for genes, and conduct differential gene expression analysis. Only seurat objects can be uploded, and users will be asked if they want to compare multiple conditions (e.g treatment vs normal, or multiple batches) or not. Seurat's pbmc3K tutorial can be used to explore the app's functionality in datasets without multiple conditions, while the hepatoblastoma dataset can be used to see its capabilities with multi-condition datasets.
 After uploading the .rds file, tabs “UMAP” and “Gene expression” will appear in the Data Exploration panel, enabling one to examine clusters and feature plots to look at gene expression.
 
 https://github.com/user-attachments/assets/bc5bcfab-a49c-4802-a28d-52ecc8f90c18
